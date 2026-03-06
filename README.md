@@ -19,7 +19,7 @@ Para ejecutar este script, necesitarás tener instalado **Python 3.x** y la libr
 
 ---
 
-1. **Instalar dependencias:**
+* **Instalar dependencias:**
 
    ```
    pip install pynput
@@ -27,7 +27,7 @@ Para ejecutar este script, necesitarás tener instalado **Python 3.x** y la libr
 
 ---
 
-2. Compatibilidad:
+* Compatibilidad:
 
 La detección del estado de Caps Lock mediante ctypes está optimizada para Windows.
 En otros sistemas operativos, el registro de teclas funcionará, pero la lógica de estado del LED de bloqueo puede variar.
@@ -36,6 +36,7 @@ En otros sistemas operativos, el registro de teclas funcionará, pero la lógica
 
 ## 📂 Uso
 Clona este repositorio o descarga el archivo .py.
+
 Abre una terminal en la carpeta del proyecto.
 
 Ejecuta el script:
