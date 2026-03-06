@@ -17,19 +17,16 @@ Este es un script de Python diseñado para registrar las pulsaciones de teclas e
 
 Para ejecutar este script, necesitarás tener instalado **Python 3.x** y la librería `pynput`.
 
----
-
 * **Instalar dependencias:**
 
    ```
    pip install pynput
    ```
 
----
-
 * Compatibilidad:
 
 La detección del estado de Caps Lock mediante ctypes está optimizada para Windows.
+
 En otros sistemas operativos, el registro de teclas funcionará, pero la lógica de estado del LED de bloqueo puede variar.
 
 ---
@@ -46,14 +43,15 @@ python logger.py
 ```
 
 El archivo registro_teclas.txt se creará automáticamente en el mismo directorio.
+
 Para detener el registro, presiona la tecla Esc.
 
 ---
 
 ## 🧠 Conceptos Aprendidos
-Manejo de Eventos (Listeners): Uso de hilos en segundo plano para escuchar entradas del sistema.
-Lógica Booleana: Implementación de la puerta lógica XOR para determinar el "Case" (Upper/Lower) de las letras.
-Gestión de Archivos: Escritura persistente en modo "append" (a) con codificación UTF-8.
+- Manejo de Eventos (Listeners): Uso de hilos en segundo plano para escuchar entradas del sistema.
+- Lógica Booleana: Implementación de la puerta lógica XOR para determinar el "Case" (Upper/Lower) de las letras.
+- Gestión de Archivos: Escritura persistente en modo "append" (a) con codificación UTF-8.
 
 ---
 
